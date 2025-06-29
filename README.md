@@ -1,4 +1,3 @@
-
 # Projeto BD2 - Sistema de Academia
 
 Este repositório contém o projeto completo de banco de dados e frontend desenvolvido para a disciplina de Banco de Dados II. O sistema simula uma base de dados voltada para a gestão de academias, incluindo alunos, planos, assinaturas, check-ins, cobranças e cancelamentos.
@@ -41,7 +40,9 @@ Aplicação desenvolvida em React + Vite + TailwindCSS, com navegação via Reac
 #### Funcionalidades
 - Dashboard com cards de estatísticas
 - Listagem de alunos com mock de planos
-- Componentes reutilizáveis
+- Componente Navbar com navegação entre páginas
+- Página de check-in manual para alunos
+- Validação de ID, plano ativo e controle de presença por dia (localStorage)
 
 #### Estrutura
 
@@ -49,7 +50,9 @@ Aplicação desenvolvida em React + Vite + TailwindCSS, com navegação via Reac
 /frontend-academia
 ├── src/
 │   ├── pages/
+│   │   └── checkin.page.tsx
 │   ├── components/
+│   │   └── Navbar.tsx
 │   ├── services/
 │   ├── App.tsx
 │   └── main.tsx
@@ -80,4 +83,4 @@ Professor: **Luciano Vieira de Araújo**
 - Marcelo de Menezes Nascimento — Nº USP 13727078  
 - Gabriel Bernardini Schimidt — Nº USP 12873188  
 - Fernando Webes Soares Brandão — Nº USP 13672940  
-- Vitor Machado Oliveira — Nº USP 7694196  
+- Vitor Machado Oliveira — Nº USP 7694196
